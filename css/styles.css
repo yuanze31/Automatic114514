@@ -1,0 +1,58 @@
+﻿html,
+body {
+    height: 100%;
+    background: hsl(216, 69%, 95%);
+}
+
+input {
+    border: 3px solid rgba(0, 0, 0, 0.09);
+    border-radius: 8px;
+    font-size: 45px;
+    text-align: center;
+    background: transparent;
+    color: hsl(216, 90%, 43%);
+    font-family: "Monaco", monospace;
+    font-weight: 700;
+    transition: border 0.2s ease, background 0.2s ease;
+    outline: none;
+    background: rgba(0, 0, 0, 0.01);
+    max-width: 95vw;
+}
+
+input:hover {
+    border: 3px solid rgba(0, 0, 0, 0.23);
+}
+
+input:focus {
+    border: 3px solid hsl(216, 90%, 43%);
+    background: hsla(204, 100%, 88%, 0.4);
+}
+
+body {
+    margin: 0;
+    padding: 10vh 0 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+mark {
+    background: hsl(138, 56%, 85%);
+    color: hsl(138, 90%, 43%);
+    font-family: "Monaco", monospace;
+    font-weight: 700;
+    margin: 12px;
+    padding: 0 16px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 40px;
+    border-radius: 32px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+.homo-value {
+    color: hsl(15, 99%, 57%);
+}
