@@ -5,9 +5,9 @@ body {
 }
 
 input {
-    border: 3px solid rgba(0, 0, 0, 0.09);
+    border: 2px solid rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    font-size: 45px;
+    font-size: 44px;
     text-align: center;
     background: transparent;
     color: hsl(216, 90%, 43%);
@@ -54,5 +54,5 @@ ul > li {
 }
 
 .homo-value {
-    color: hsl(15, 99%, 57%);
+    color: hsl(15, 100%, 64%);
 }
